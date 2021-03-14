@@ -1,0 +1,28 @@
+/*Libs*/
+@import 'libs';
+@import 'fonts';
+@import 'variables';
+
+/**
+* Main styles
+*/
+body{
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.5;
+	font-family: $font;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
